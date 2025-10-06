@@ -1,0 +1,76 @@
+
+
+body{
+background-color: black;
+
+
+}
+
+section{
+
+border: 10px solid white;
+position: relative;
+top: 10px;
+
+
+
+}
+
+
+.vicky1{
+background-color: #ce1126;
+height: 250px;
+width: 100%;
+font-size: 100px;
+color: white;
+text-align: center;
+text-transform: capitalize;
+
+
+
+
+
+
+}
+.vicky2{
+position: relative;
+background-color: #002868;
+height: 380px;
+width: 100%;
+
+
+
+}
+
+
+
+
+.vicky3{
+background-color: #ce1126;
+height: 250px;
+width: 100%;
+
+
+
+}
+.vicky{
+font-size: 120px;
+color: black;
+text-align: center;
+position: relative;
+bottom: 500px;
+border: 1px solid white;
+background-color: white;
+height: 280px;
+width: 280px;
+border-radius: 280px;
+position: absolute;
+top: 180px;
+left: 800px;
+
+
+
+
+
+
+}
