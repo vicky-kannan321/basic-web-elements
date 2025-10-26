@@ -1,0 +1,160 @@
+
+
+
+
+body{
+
+background-image:linear-gradient(110deg,#145277,#83d0cb) ;
+
+
+}
+
+
+
+
+
+
+@font-face{
+src: url('../fonts/BebasNeue-Regular.ttf');
+font-family: "BebasNeue-Regular";
+
+}
+@font-face
+{
+src: url('../fonts/Prototype.ttf');
+font-family:"Prototype";
+
+
+}
+@font-face
+{
+src: url('../fonts/Lemon-Regular.ttf');
+font-family:"Lemon-Regular";
+
+
+}
+h1{
+font-family: "BebasNeue-Regular";
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+text-align: center;
+font-size:5.4rem;
+color: rgb(238, 236, 236);
+
+
+
+
+
+}
+.card{
+    background-image: linear-gradient(90deg,#f5f2eb,#f7c0ec);
+
+height:26.5rem;
+width: 17.4rem;
+box-shadow:  0px 5px 20px;
+border-radius: 6px;
+position: relative;
+
+
+
+}
+.card_img{
+height: 8.1rem;
+width: 100%; 
+display: flex;
+justify-content: center;
+position:relative;
+top: -2rem;
+
+
+
+}
+.card_img>img{
+height: 100%;
+width: 70%;
+
+}
+
+.card_title{
+    font-family:"Prototype";
+
+font-weight: 550;
+font-style: normal;
+text-transform: capitalize;
+text-align: center;
+font-size: 1.8rem;
+ margin: -10px;
+
+ 
+
+
+
+
+}
+.card_content{
+font-family:"Lemon-Regular";
+font-size:12.5px ;
+font-optical-sizing: auto;
+font-weight:100;
+font-style: normal;
+text-align: justify;
+letter-spacing: 1px;
+text-indent: 2rem;
+margin-top:20px;
+padding: 10px;
+line-height: 20px;
+
+
+
+
+
+}
+ .card_btn{
+display: flex;
+ justify-content:center;
+margin:-10px;
+
+
+} 
+.btn{
+    background-image: linear-gradient(180deg,#220b34,#c11e38);
+outline: none;
+border: none;
+height: 2rem;
+width:110px;
+font-size:0.8rem ;
+background-color: rgb(72, 201, 72);
+color: white;
+border-radius: 5px;
+
+
+
+
+}
+.btn:hover{
+background-image: linear-gradient(#5c73b9,#b330e1);
+cursor: pointer;
+
+
+}
+.row{
+margin-top:40px;
+display: flex;
+width:100%;
+justify-content:space-evenly;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
