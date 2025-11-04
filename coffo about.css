@@ -1,0 +1,186 @@
+
+@font-face{
+src: url('../fonts 2/Anton-Regular.ttf');
+font-family:"Anton-Regular";
+
+
+
+}
+@font-face{
+src: url('../fonts 2/MutterKrauseNormal.ttf');
+font-family:"MutterKrauseNormal";
+
+
+
+
+}
+@font-face{
+src: url('../fonts 2/Faustina-Medium.ttf');
+font-family:"Faustina-Medium";
+
+
+
+}
+
+.about_container{
+ display: flex;
+ justify-content:space-evenly;
+ 
+ column-gap: 30px;
+
+}
+.sub1{
+     margin-top: 5rem;
+
+
+
+
+}
+.sub_head{
+font-family:"Anton-Regular";
+font-size: 2.6rem;
+color: #423f3f;
+font-weight: 800;
+text-transform: uppercase;
+letter-spacing: 1px;
+
+
+
+
+
+}
+.sub_text{
+font-size: 2.2rem;
+font-weight: 200;
+
+
+
+
+}
+.sub_para{
+color: #423f3f;
+font-family:"Faustina-Italic"; 
+font-size: 1.2rem;
+text-align: justify;
+letter-spacing: 0.5px;
+font-weight: lighter;
+
+
+
+
+
+
+}
+.sub_btn{
+  
+height: 2.8rem;
+width: 9.6rem;
+font-size: 1rem;
+padding: 5px;
+text-transform: uppercase;
+background-color: white;
+color:#f01c1c;
+border: 1px solid #f01c1c;
+border-radius: 5px;
+
+
+}
+.sub2{
+margin-top: 6rem;
+
+
+}
+.sub2>img{
+height: 22rem;
+width: 34rem;
+
+
+
+
+}
+   @media all and (max-width:1280px) {
+
+.sub_para{
+
+font-size: 1.2rem;
+
+
+
+
+} 
+.sub_btn{
+   font-weight: 400;
+   border: 2px solid #f01c1c;
+
+
+}
+   }
+
+@media all and (max-width:440px)
+{
+
+.about_container{
+
+display: flex;
+flex-direction: column;
+margin: 30px;
+
+
+}
+.sub_head{
+font-size: 4rem;
+
+
+
+}
+.sub_text{
+font-size: 5.5rem;
+
+
+
+}
+.sub_para{
+   
+  
+font-size: 2rem;
+font-weight: 200;
+letter-spacing: 1px;
+text-align:justify;
+line-height: 2.8rem;
+margin-bottom: 60px;
+
+
+}
+
+.sub_btn{
+  
+    
+font-size: 2rem;
+height: 6rem;
+width: 16rem;
+
+
+
+
+}
+.sub2>img{
+    margin:0px  20px;
+    height: 40rem;
+    width: 54rem;
+
+
+
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+

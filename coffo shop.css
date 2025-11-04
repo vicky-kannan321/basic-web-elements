@@ -1,0 +1,157 @@
+@font-face{
+src: url('../fonts 2/BebasNeue-Regular.ttf');
+font-family:"BebasNeue-Regular";
+
+
+
+
+}
+@font-face{
+src: url('../fonts 2/Lemon-Regular.ttf');
+font-family:"Lemon-Regular";
+
+
+
+}
+
+@font-face{
+src: url('../fonts 2/Faustina-Medium.ttf');
+font-family:"Faustina-Medium";
+
+
+
+}
+.head_main{
+font-family:"Lemon-Regular";
+font-size: 2.8rem;
+color: rgb(51, 48, 48);
+font-weight: 900;
+text-transform: uppercase;
+margin-top: 4rem;
+margin-left: 6rem;
+
+}
+.main_container{
+ margin-left:6rem;   
+display: grid;
+grid-template-columns:1fr 5fr 1fr;
+
+
+}
+.main_name{
+padding-left: 5rem;
+
+}
+.main_img>img{
+height: 12rem;
+width:16rem;
+
+
+}
+.main_text{
+font-family:"Faustina-Medium";
+font-size: 1.5rem;
+font-weight: bold;
+
+}
+.main_para{
+font-family:"Faustina-Medium"; 
+font-size: 1.3rem;
+font-weight:lighter;
+
+
+}
+.main_btn{
+display: flex;
+flex-direction: column;
+row-gap: 5px;
+
+
+}
+.main_arrow{
+height: 3.8rem;
+width:3.8rem;
+background-color: #423f3f; 
+color: white;
+border: none;
+border-radius: 3px;
+
+
+}
+.main_arrow:hover{
+background-color:  #f01c1c;;
+
+
+}
+@media all and (max-width:1280px) {
+.main_text{
+font-size: 2rem;
+
+
+
+}
+.main_para{
+font-size: 1.2rem;
+text-align: justify;
+
+
+}
+
+
+ 
+
+}   
+@media all and (max-width:440px) {
+.head_main{
+font-size: 3.8rem;
+position: relative;
+right:4.8rem ;
+
+}
+
+.main_container{
+position: relative;
+right: 4.8rem;
+display: flex;
+flex-direction: column;
+}
+.main_img>img{
+height:50rem;
+width: 52rem;
+
+
+}
+.main_text{
+font-size: 5rem;
+
+
+}
+.main_para{
+font-size: 2.9rem;
+text-align: justify;
+position: relative;
+bottom: 4rem;
+
+
+
+}
+.main_btn{
+ border: none;
+
+
+}
+
+.main_arrow{
+ background-color: white;
+
+ 
+
+
+
+}
+
+
+}
+
+
+

@@ -1,0 +1,289 @@
+@font-face{
+src: url('../fonts 2/Faustina-Medium.ttf');
+font-family:"Faustina-Medium";
+
+
+
+}
+.contact_form{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1.2rem;
+
+
+
+
+}
+.contact_head{
+    font-family:"Faustina-Medium";
+font-size: 3rem;
+color: #2e2e2d;
+font-weight: 900;
+text-transform: uppercase;
+text-align: center;
+margin: 40px;
+
+
+}
+input[type="text"]{
+height: 3rem;
+width: 50rem;
+font-size: 18px;
+color: #2e2e2d;
+background-color: rgb(239, 239, 239);
+font-weight: 500;
+padding-left: 15px;
+border-radius: 30px;
+border: none;
+
+
+
+
+
+}
+input[type="text"]:focus{
+    outline: none;
+
+
+
+
+}
+
+input[type="email"]{
+ height: 3rem;
+width: 50rem;
+font-size: 18px;
+color: #2e2e2d;
+background-color: rgb(239, 239, 239);;
+font-weight: 500;
+padding-left: 15px;
+border-radius: 30px;
+border: none;
+
+}
+input[type="email"]:focus{
+    outline: none;
+
+
+
+
+}
+input[type="tel"]{
+ height: 3rem;
+width: 50rem;
+font-size:18px;
+color: #2e2e2d;
+background-color: rgb(239, 239, 239);;
+font-weight: 500;
+padding-left: 15px;
+border-radius: 30px;
+border: none;
+
+
+}
+input[type="tel"]:focus{
+    outline: none;
+
+
+
+
+}
+.message{ 
+height: 2rem;
+width:48rem ;
+padding: 40px;
+font-size: 1.4rem;
+color: #2e2e2d;
+font-weight:100;
+background-color: rgb(239, 239, 239);
+padding-left: 15px;
+border-radius: 2.6rem;
+border: none;
+
+
+}
+.message:focus{
+    outline: none;
+
+
+
+}
+button{
+height: 3rem;
+width: 10rem;
+font-size: 1.3rem;
+color: white;
+background-color: #f01c1c;
+border-radius: 40px;
+border: none;
+}
+.contact-map{
+margin-top: 5.6rem;
+
+
+
+}
+.address-container{
+position: relative;
+height: 20rem;
+width: 100%;
+background-color: black;
+
+
+
+}
+.address-main{
+padding-top: 4rem;
+display: flex;
+justify-content: center;
+column-gap: 5px;
+
+
+
+}
+.box-logo{
+   
+height: 2.8rem;
+width: 2.8rem;
+background-color: white;
+border-radius: 2.8rem;
+
+
+}
+.ad_logo{
+position: relative;    
+top: 0.4rem;
+left: 0.4rem;
+
+
+}
+.ad_logo:hover{
+color: #f01c1c;    
+
+
+
+}
+.address_sub{
+ margin-top: 3rem;   
+display: flex;
+justify-content: center;
+column-gap: 25px;
+
+
+
+}
+.tel{
+font-size: 18px;
+color: white;  
+
+
+
+}
+
+.tel_logo{
+margin-right: 5px;   
+
+
+
+
+
+}
+
+.email{
+    font-family:"Faustina-Medium";
+    font-size:19px;
+color: white;
+
+
+
+}
+.email_logo{
+margin-right: 5px;
+
+
+
+}
+
+
+
+.tel:hover{
+color: #f01c1c;
+transition: 2s;
+
+
+}
+.email:hover{
+ color: #f01c1c;
+transition: 2s;  
+}
+.add_arrow{
+height: 2rem;
+width: 2rem;
+background-color: #f01c1c;
+
+
+}
+.add_box{
+height: 3.9rem;
+width: 36rem;
+background-color: #f01c1c;
+position: relative;
+top: 3rem;
+left: 41rem;
+
+}
+.mail{
+height:2.1rem;
+width:28rem ;
+ font-size: 1.4rem;
+    font-family:"Faustina-Medium";
+padding: 14px;
+
+}
+.mail:focus{
+outline: none;    
+
+}
+.add_arrow{
+    padding-left: 22px;
+padding-bottom: 14px;    
+color: white;
+
+
+}
+.address_end{
+margin-top: 4.8rem;
+height:3.8rem;
+width:100%;
+background-color: #f01c1c;
+
+
+
+}
+.add_text{
+  font-family:"Faustina-Medium";   
+padding-top: 1.2rem;
+font-size:18px;
+color: white;
+text-align: center;
+
+}
+@media all and (max-width:1280px){
+.add_box{
+height:3.2rem ;
+width:32rem ;    
+
+
+
+}    
+
+
+
+
+
+}
+
+
+
+

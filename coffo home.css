@@ -1,0 +1,484 @@
+@font-face{
+src: url('../fonts 2/Faustina-Italic.ttf');
+font-family:"Faustina-Italic";
+
+
+
+}
+@font-face{
+src: url('../fonts 2/Faustina-Medium.ttf');
+font-family:"Faustina-Medium";
+
+
+
+}
+.main_head{
+background: url('../images/mae-mu-0EWWLx_etkw-unsplash-scaled-e1584616999648.jpg');
+background-size: cover;
+
+height:100vh;
+
+
+
+}
+
+
+
+
+
+.head_logo>img
+{
+height: 2.8rem;
+width: 12rem;
+margin: 20px 120px;
+padding: 0px;
+
+
+}
+
+.nav{
+display: grid;
+grid-template-columns: 1fr 2fr 1fr;
+
+
+
+       
+}
+.nav_bar{
+    
+  
+  
+
+display: flex;
+
+list-style: none;
+
+
+
+
+}
+.nav_link{
+   font-family:"Faustina-Italic";
+font-size: 1.4rem; 
+text-transform: uppercase; 
+
+text-decoration: none;
+color: white;
+padding: 0px 20px;
+
+
+
+
+}
+ .nav_link:hover
+ {
+background-color: #f01c1c;
+color: white;
+width: 90%;
+transition: 0.3s;
+
+  }
+ .nav_lg{
+    display: flex;
+margin-top: 15px;
+padding:0px 30px;
+
+
+
+  } 
+ .logo{
+  font-size: 1.4rem; 
+  font-weight: 600;
+  text-transform: uppercase; 
+  text-decoration: none;
+  color:white;
+
+
+
+
+ }
+ .logo:hover{
+    color: #f01c1c;
+
+
+
+ }
+ .search{
+   
+
+color: white;
+padding-left: 1.6rem;
+
+
+
+ }
+ .search:hover{
+color: #f01c1c;
+
+
+ }
+ .head{
+ 
+font-size: 7rem;
+color: rgb(255, 255, 255);
+margin-left: 7.5rem;
+
+
+
+
+
+
+ }
+ .head_para{
+   font-family:"Faustina-Medium";
+    font-size: 1.8rem;
+color: rgb(255, 255, 255);
+margin-left: 7.5rem;
+
+
+ }
+ .btn{
+    margin-top:2.6rem ;
+margin-top: 4rem;    
+margin-left: 7.5rem;
+
+
+
+
+ }
+ .abt_btn{
+height: 3rem;
+width: 11rem;
+font-size: 1rem;
+text-transform:uppercase;
+background-color: #f01c1c;
+color: white;
+border: none;
+border-radius: 5px;
+
+
+ }
+ .cl_btn{
+height: 3rem;
+width: 11rem;
+font-size: 1rem;
+text-transform: uppercase;
+background-color:white;
+color: black;
+border: none;
+border-radius: 5px;
+
+
+
+ }
+ .cl_btn:hover{
+background-color: #f01c1c;
+color: white;
+
+
+ }
+ .head_btn{
+margin-top:11rem;
+display: flex;
+justify-content: center;
+
+
+
+
+ }
+ .la_btn{
+color: black;
+background-color: white;
+height: 4rem;
+width: 4rem;
+border-radius: 6px;
+
+
+
+ }
+  .left_arrow{
+  height: 1.4rem;
+  width: 1.4rem; 
+
+
+
+
+ }
+ 
+ .la_btn:hover{
+background-color: #f01c1c;
+color: white;
+
+
+
+ }
+ .left_arrow{
+  height: 1.4rem;
+  width: 1.4rem; 
+
+
+
+
+ }
+ .ra_btn{
+color: white;
+background-color: #f01c1c;
+height: 4rem;
+width: 4rem;
+border-radius: 6px;
+
+
+
+ }
+ 
+  .right_arrow{
+  height: 1.4rem;
+  width: 1.4rem; 
+
+
+
+
+ }
+  @media all and (max-width: 1280px)
+{
+.main_head{
+
+ height: 630px; 
+ width: 100%;  
+
+}
+.head{
+font-size: 5rem;
+
+
+}
+.head_logo>img{
+height: 3rem;
+width: 7rem;
+
+
+}
+ .nav_link{
+font-size: 1.3rem;
+font-weight: 500;
+
+
+}
+.head_para{
+font-size: 1.6rem;
+
+
+}
+.btn{
+  position: relative;
+bottom: 2rem;
+}
+
+.abt_btn{
+ height: 2.6rem;
+ width: 8rem; 
+font-size: 1.3rem;
+font-weight: 500;
+
+
+
+}
+.cl_btn{
+ height: 2.6rem;
+ width: 8rem; 
+font-size: 1.3rem;
+font-weight: 500;
+
+
+}
+.head_btn{
+position: relative;
+bottom: 8.3rem;
+
+
+}
+
+
+
+
+
+} 
+  @media all and (max-width: 440px)
+ {
+.main_head{
+background-position: center;
+background-size: cover;
+height: 1800px;
+
+
+}
+.head_logo{
+display: flex;
+justify-content: center;
+
+
+
+
+}
+.head_logo>img{
+height: 7rem;
+width: 15rem;
+
+
+
+}
+.nav{
+
+
+
+display: grid;
+grid-template-columns: 1fr;
+
+
+
+
+
+
+}
+.nav_bar{
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+
+
+
+
+
+}
+.nav_link{
+font-size: 2.8rem;
+font-weight: 700;
+
+
+
+
+}
+.nav_lg{
+
+
+
+}
+.logo{
+font-size: 4rem;
+font-weight: 600;
+
+
+
+}
+.human{
+height: 3.6rem;
+width: 3.6rem;
+margin-left: 1.6rem;
+
+
+}
+.src{
+height:4rem;
+width: 4rem;
+
+
+}
+.head_sub{
+position: relative;
+left: -3.4rem;
+
+
+
+
+
+}
+.head{
+
+
+font-size: 8rem;
+position: relative;
+bottom:5rem;
+
+
+
+
+}
+.head_para{
+font-size:3rem;
+font-weight: 500;
+position: relative;
+bottom: 8rem;
+
+}
+.btn{
+position: relative;
+bottom: 6rem;
+display: flex;
+justify-content: center;
+}
+.abt_btn{
+   font-size: 2rem;
+  font-weight: 400;
+  text-align: center; 
+height: 5rem;
+width: 13rem;
+
+
+
+}
+.cl_btn{
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center; 
+height: 5rem;
+width: 13rem;
+
+
+
+
+}
+.head_btn{
+position: relative;
+bottom: 3rem;
+
+
+
+}
+.la_btn{
+height: 6.6rem;
+width: 6.6rem;
+
+
+
+}
+.left_arrow{
+height: 3rem;
+width: 3rem;
+
+
+}
+
+.ra_btn{
+
+height: 6.6rem;
+width: 6.6rem;
+
+}
+.right_arrow{
+
+height: 3rem;
+width: 3rem;
+
+}
+ }  
+    
+
+
+
+
+
+
+
+
+
