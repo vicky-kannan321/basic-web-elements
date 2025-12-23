@@ -1,0 +1,144 @@
+
+@font-face{
+src: url('../fonts/RadioLand.ttf');
+font-family:"RadioLand";
+
+
+}
+@font-face{
+src: url('../fonts/Righteous-Regular.ttf');
+font-family:"Righteous-Regular";
+
+
+}
+@font-face{
+src: url('../fonts 2/Faustina-Medium.ttf');
+font-family:"Faustina-Medium";
+
+
+
+}
+@font-face
+{
+src: url('../fonts/Lemon-Regular.ttf');
+font-family:"Lemon-Regular";
+
+
+}
+.Digitalclock{
+background-image: linear-gradient(110deg,#145277,#83d0cb);
+height: 100vh;
+background-size: cover;
+
+
+
+}
+
+.clock_container{
+
+display: flex;
+justify-content: center;
+column-gap: 40px;
+
+
+
+}
+.main_clock{
+height: 6.5rem;
+width: 14.6rem;
+background-color: rgb(61, 60, 60);
+border-radius: 5px;
+position: relative;
+margin-bottom: 50px;
+position: relative;
+top: 1rem;
+left: 32rem;
+
+
+}
+.dc_clock{
+height: 4.8rem;
+width: 13rem;
+background-color: black;
+position: absolute;
+top: 0.8rem;
+left: 0.8rem;
+
+
+}
+
+
+#clock{
+    font-family:"RadioLand";
+    font-size: 2.2rem;
+color: #7bdcb5;
+
+  position: relative; 
+left: 1rem;
+bottom:13px;
+
+
+
+letter-spacing: 2px;
+
+
+
+}
+.off_img>img{
+height: 26rem;
+width: 22rem;
+opacity: 0.9;
+
+}
+.off_head{
+
+ font-family:"Righteous-Regular";   
+font-size: 3rem;
+letter-spacing: 1px;
+color:white ;
+
+
+}
+.off_text{
+font-family:"Faustina-Medium";
+font-size: 2.2rem;
+text-transform:capitalize;
+font-weight: 900;
+color: darkblue;
+}
+.off_para{
+  
+ color: rgb(51, 50, 50);   
+font-size: 1.3rem;
+font-weight: 300;
+text-align: justify;
+
+}
+.off_discount{
+font-size: 1.4rem;
+padding-right: 14px ;
+color: rgb(216, 20, 20);
+
+
+}
+.rate{
+
+font-weight:100 ;
+padding-right: 7px;
+
+}
+button{ 
+background-image:linear-gradient(#8e0e00,#1f1c18) ;      
+height: 2.6rem;
+width: 9rem;
+font-size: 1.1rem;
+color: white;
+font-weight: 600;
+border-radius: 4px;
+border: none;
+
+}
+.off_btn:hover{
+background-image: linear-gradient(#5f2c82);    
+
+}
